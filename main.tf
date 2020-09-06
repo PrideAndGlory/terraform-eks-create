@@ -1,8 +1,7 @@
 provider "aws" {
   region  = "eu-central-1"
-  version = "2.7.0"
-  access_key = "AKIAJREWP76F6XWF23CA"
-  secret_key = "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"
+  access_key = "somekey"
+  secret_key = "somesecret"
 }
 resource "aws_iam_role" "eks_cluster" {
   name = "eks-cluster"
